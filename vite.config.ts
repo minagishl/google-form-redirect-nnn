@@ -7,7 +7,7 @@ const manifest = defineManifest({
   version: "1.0.0",
   description:
     "Automatically redirect to nnn.ed.jp if the Google Form cannot be opened.",
-  host_permissions: ["https://docs.google.com//*"],
+  host_permissions: ["https://docs.google.com/*"],
   content_scripts: [
     {
       matches: ["https://docs.google.com/*"],
