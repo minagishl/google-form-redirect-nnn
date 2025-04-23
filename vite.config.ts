@@ -10,7 +10,7 @@ const manifest = defineManifest({
   host_permissions: ["https://docs.google.com/*"],
   content_scripts: [
     {
-      matches: ["https://docs.google.com/*"],
+      matches: ["https://docs.google.com/forms/*"],
       js: ["src/content.ts"],
     },
   ],
